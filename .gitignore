@@ -1,0 +1,31 @@
+# Environment & temp
+node_modules
+/out
+dist/
+.idea
+.vscode
+.zed
+.DS_Store
+**/.DS_Store
+.env
+.env.production
+.env.local
+.env_main
+node-compile-cache
+cookies.json
+
+# Character configurations & temp
+**/secrets.json
+**/*.env
+**/*.key
+**/private/
+**/cache/
+**/logs/
+
+# Configuration to exclude the extra and local_docs directories
+logs/
+test-report.json
+content_cache/
+test_data/
+extra
+**/dist/**
