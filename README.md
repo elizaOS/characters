@@ -2,6 +2,8 @@
 
 Collection of character configs for creating personalized AI agents with [ElizaOS](https://github.com/elizaOS/eliza).
 
+![Character Banner](banner.jpg)
+
 By defining characters through structured JSON files, you can shape how your AI agent thinks, speaks, and responds across various platforms and contexts.
 
 ## Character File Schema
@@ -78,6 +80,9 @@ Below is the schema for ElizaOS character files with explanations for each field
   }
 }
 ```
+
+You can preview a few TTS voice models through [this link](https://rhasspy.github.io/piper-samples/), or also request a list of [available voices in ElevenLabs](https://elevenlabs.io/docs/api-reference/voices/search?explorer=true).
+
 
 ## Naming Conventions
 
